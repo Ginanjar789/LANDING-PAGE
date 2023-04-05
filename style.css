@@ -98,7 +98,7 @@ p {
   text-align: center;
 }
 
-h2 {
+h1 {
   font-family: "Open Sans", sans-serif;
   font-weight: 800px;
   font-size: 32px;
@@ -107,10 +107,11 @@ h2 {
   width: 100%;
   line-height: 50px;
 }
+
 p {
   font-family: "Open Sans", sans-serif;
   font-weight: 800px;
-  font-size: 24px;
+  font-size: 14px;
   margin-bottom: 20px;
   color: #272325;
   width: 100%;
@@ -135,4 +136,30 @@ a.tbl-biru:hover {
 p {
   margin: 10px 0px 10px 0px;
   padding: 10px 0px 10px 0px;
+}
+
+.row {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.column {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.column img {
+  display: flex;
+  margin: 0 auto;
+  margin-top: 40px;
+  width: 30%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.artikel kolom {
+  align-items: left;
 }
